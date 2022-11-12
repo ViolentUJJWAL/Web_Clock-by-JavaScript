@@ -1,0 +1,72 @@
+body {
+	text-align: center;
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+}
+
+h1 {
+	color: black;
+	font-family: fantasy;
+	letter-spacing: 15px;
+	font-size: 40px;
+}
+
+#contener {
+	margin: auto;
+	height: 500px;
+	width: 700px;
+	border-left: solid red 10px;
+	border-top-left-radius: 18px;
+	border-bottom-left-radius: 10px;
+	border-bottom: solid red 5px;
+}
+
+.dataNumber {
+	display: flex;
+	height: 20px;
+	border-bottom: 2px solid black;
+	padding-left: 15px;
+	background: white;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+#timeDate {
+	height: 30px;
+	border-bottom: 2px solid black;
+	font-size: 25px;
+	color: white;
+	background: red;
+	border-radius: 10px;
+	border-bottom-left-radius: 0px;
+	margin-bottom: 0px;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.numBox {
+	width: 55px;
+	text-align: right;
+	font-size: 20px;
+	color: blue;
+}
+
+#graphContener {
+	height: 400px;
+}
+
+.graphBox {
+	height: 100px;
+	display: flex;
+}
+
+.box {
+	margin-top: 10px;
+	height: 60px;
+	border: solid yellow 2px;
+	background: yellow;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
